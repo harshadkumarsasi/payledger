@@ -1,0 +1,30 @@
+node_modules
+.next
+out
+build
+coverage
+
+# Local environment (never commit real credentials)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Scratch tooling for the cloud VM / local test harness
+.tools
+.tmp
+*.log
+.vercel
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+
+# Screenshots from local verification
+artifacts
+.neon
+
+# local tooling
+.agents/
+.vscode/
+skills-lock.json
+.neon
