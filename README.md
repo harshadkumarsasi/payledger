@@ -391,7 +391,7 @@ docker-compose.yml                    # dev + test Postgres
 
 ---
 
-## What I'd build next
+## Future Scope
 
 - **Refunds and reversals** as new payments and ledger entries, never mutations of settled entries, each with its own idempotency key.
 - **Webhooks with retries**: signed deliveries, exponential backoff, dead-letter handling, and replay protection.
